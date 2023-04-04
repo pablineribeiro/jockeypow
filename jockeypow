@@ -1,0 +1,37 @@
+const minimo = 1
+const maximo = 3
+const numeroAleatorio = Math.floor(minimo+ Math.random()* (maximo-minimo) )
+console.log(numeroAleatorio)
+//1 pedra
+//2 papel
+//3 tesoura
+
+const minhaEscolha = 3
+
+if (minhaEscolha == numeroAleatorio)
+{console.log("Empate")}
+
+if (numeroAleatorio == 1  && minhaEscolha== 2)
+{ console.log ("Maquina perdeu")
+
+}
+if (numeroAleatorio == 1 && minhaEscolha == 3 )
+{ console.log ("Maquina ganhou")
+
+}
+if (numeroAleatorio == 2 && minhaEscolha == 1 )
+{ console.log ("Maquina ganhou")
+
+}
+if (numeroAleatorio == 2 && minhaEscolha== 3 )
+{ console.log ("Maquina perdeu")
+
+}
+if (numeroAleatorio == 3 && minhaEscolha ==1  )
+{ console.log ("Maquina Perdeu")
+
+}
+if (numeroAleatorio == 3 && minhaEscolha == 2 )
+{ console.log ("Maquina Ganhou")
+
+}
